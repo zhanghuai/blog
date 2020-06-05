@@ -18,15 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-    - name: Checkout # 将仓库内master分支的内容下载到工作目录
-      uses: actions/checkout@v1 # 脚本来自 https://github.com/actions/checkout
-
-    - name: Use Node.js 12.x # 配置Node环境
-      uses: actions/setup-node@v1 # 配置脚本来自 https://github.com/actions/setup-node
-      with:
-        node-version: "12.x"
-
-    - name: Setup Hexo env
+    - name: Set ssh-key
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
       run: |
@@ -38,7 +30,17 @@ jobs:
         # set git infomation
         git config --global user.name 'tonytot'
         git config --global user.email 'zh5172@qq.com'
-  
+
+    - name: Checkout # 将仓库内master分支的内容下载到工作目录
+      uses: actions/checkout@v1 # 脚本来自 https://github.com/actions/checkout
+      with:
+        submodules: true
+
+    - name: Use Node.js 12.x # 配置Node环境
+      uses: actions/setup-node@v1 # 配置脚本来自 https://github.com/actions/setup-node
+      with:
+        node-version: "12.x"
+
     - name: Deploy blog
       run: |
         # install dependencies
