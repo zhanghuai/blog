@@ -65,7 +65,7 @@ highlight:
 index2_include_index: true # defult is true
 # 配置index2 generator，可以是数组或对象
 index2_generator:
-  - layout: 'archives' # use existing index layout
+  - layout: 'archive' # use existing index layout
     path: '' # output to root directory: http://127.0.0.1:4000/
     index: true # Set index true
 
