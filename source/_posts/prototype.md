@@ -6,7 +6,7 @@ copyright: true
 tags: 
   - 原型与原型链
 categories:
-  - JavaScript
+  - JavaScript基础
 ---
 
 ### 理解原型

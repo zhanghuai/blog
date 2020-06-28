@@ -6,7 +6,7 @@ copyright: true
 tags:
   - 执行上下文
 categories:
-  - JavaScript
+  - JavaScript基础
 ---
 如果要问到 `JavaScript` 代码执行顺序的话，想必写过 `JavaScript` 的开发者都会有个直观的印象，那就是顺序执行。但是变量提升，函数提升应该怎么解释呢？这是因为 `JavaScript` 引擎并非一行一行地分析和执行程序，而是一段一段地分析执行。当执行一段代码的时候，会进行一个“准备工作”。
 <!--more-->

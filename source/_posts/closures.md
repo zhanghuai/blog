@@ -6,7 +6,7 @@ copyright: true
 tags: 
   - 闭包
 categories: 
-  - JavaScript
+  - JavaScript基础
 ---
 
 ### 闭包的概念

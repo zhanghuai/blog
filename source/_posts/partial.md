@@ -6,7 +6,7 @@ copyright: true
 tags: 
   - 偏函数
 categories: 
-  - JavaScript
+  - JavaScript基础
 ---
 
 ### 偏函数的概念

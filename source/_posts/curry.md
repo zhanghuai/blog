@@ -6,7 +6,7 @@ copyright: true
 tags: 
   - 柯里化
 categories: 
-  - JavaScript
+  - JavaScript基础
 ---
 
 ### 柯里化的概念

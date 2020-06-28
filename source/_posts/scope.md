@@ -6,7 +6,7 @@ copyright: true
 tags:
   - 作用域
 categories:
-  - JavaScript
+  - JavaScript基础
 ---
 
 ### 作用域
