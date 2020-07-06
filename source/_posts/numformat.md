@@ -5,7 +5,9 @@ copyright: true
 date: 2020-06-28 11:23:30
 tags:
   - 正则表达式
-categories: 编程题
+categories: 
+  - 编程题
+  - 面试题
 ---
 **题目描述：** 数字的千位分隔符表示法,多种实现方式。
 
